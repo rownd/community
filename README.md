@@ -58,8 +58,7 @@ We’ll review and respond as quickly as we can — especially for launch-critic
 ## 🌍 Stay Connected
 
 - [🌐 Website](https://www.rownd.com)  
-- [💼 LinkedIn](https://www.linkedin.com/company/rownd)  
-- [🐦 Twitter](https://twitter.com/rowndio)  
+- [💼 LinkedIn](https://www.linkedin.com/company/rownd)   
 - [🖥 App](https://app.rownd.io/)
 
 ---
