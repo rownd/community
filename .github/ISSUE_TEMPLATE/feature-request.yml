@@ -1,7 +1,7 @@
 name: Feature Request
 description: Suggest a new feature or improvement to make Rownd better
 title: "[Feature]: "
-labels: ["enhancement", "triage"]
+labels: ["enhancement", "feature"]
 
 body:
   - type: markdown
