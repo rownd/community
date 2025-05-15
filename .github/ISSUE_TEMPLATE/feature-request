@@ -1,0 +1,58 @@
+name: Feature Request
+description: Suggest a new feature or improvement to make Rownd better
+title: "[Feature]: "
+labels: ["enhancement", "triage"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        🙌 Thanks for helping us improve Rownd! Please fill out the form below so we can better understand your request.
+
+  - type: input
+    id: feature_title
+    attributes:
+      label: Feature title
+      description: A short name for the feature you're requesting
+      placeholder: "Example: Add analytics by platform for Smart Links"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are you trying to solve?
+      description: Describe the core problem or need this feature addresses
+      placeholder: "It's hard to understand what platforms users are coming from..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed-solution
+    attributes:
+      label: What's your proposed solution?
+      description: If you have a vision for how this could work or look, let us know!
+      placeholder: "I'd like to see a breakdown by platform (iOS, Android, Web) in analytics..."
+    validations:
+      required: false
+
+  - type: dropdown
+    id: importance
+    attributes:
+      label: How important is this to you?
+      options:
+        - Nice to have
+        - Helpful, but not urgent
+        - High priority
+        - Critical to our success
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Include any links, screenshots, or examples that help clarify your request
+      placeholder: "We’re using this for a mobile onboarding funnel, so platform insights would be huge..."
+    validations:
+      required: false
