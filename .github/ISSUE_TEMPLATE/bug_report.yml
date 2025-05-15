@@ -24,15 +24,6 @@ body:
       value: "A bug happened!"
     validations:
       required: true
-  - type: textarea
-    id: reproduction-steps
-    attributes:
-      label: How is this problem reproduced?
-      description: The more detail the better.
-      placeholder: Tell us what you see!
-      value: "1. Open the platform, 2. Navigate to..."
-    validations:
-      required: true
   - type: dropdown
     id: browsers
     attributes:
@@ -44,3 +35,33 @@ body:
         - Safari
         - Microsoft Edge
         - Arc
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: How is this problem reproduced?
+      description: The more detail the better.
+      placeholder: Tell us what you see!
+      value: "1. Open the platform, 2. Navigate to..."
+    validations:
+      required: true
+ - type: textarea
+    id: expected-behavior
+    attributes:
+      label: What is the expected behavior?
+      description: It should have...
+      placeholder: Tell us what should've happened instead of the but 
+      value: "It should have..."
+    validations:
+      required: false
+- type: textarea
+  id: screenshots
+  attributes:
+    label: Screenshots
+    description: |
+      Drag and drop any screenshots below to help us understand the issue.
+      You can also paste images directly into this field.
+    placeholder: "Paste or drag images here"
+     validations:
+      required: false
+
+  
