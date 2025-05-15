@@ -57,11 +57,9 @@ body:
   id: screenshots
   attributes:
     label: Screenshots
-    description: |
-      Drag and drop any screenshots below to help us understand the issue.
-      You can also paste images directly into this field.
+    description: Drag and drop any screenshots below to help us understand the issue. You can also paste images directly into this field.
     placeholder: "Paste or drag images here"
-     validations:
+  validations:
       required: false
 
   
