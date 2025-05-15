@@ -2,11 +2,13 @@ name: Bug Report
 description: File a bug report.
 title: "[Bug]: "
 labels: ["bug", "triage"]
+
 body:
   - type: markdown
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
+
   - type: input
     id: contact
     attributes:
@@ -15,6 +17,7 @@ body:
       placeholder: ex. email@example.com
     validations:
       required: false
+
   - type: textarea
     id: what-happened
     attributes:
@@ -24,6 +27,7 @@ body:
       value: "A bug happened!"
     validations:
       required: true
+
   - type: dropdown
     id: browsers
     attributes:
@@ -35,6 +39,7 @@ body:
         - Safari
         - Microsoft Edge
         - Arc
+
   - type: textarea
     id: reproduction-steps
     attributes:
@@ -44,22 +49,22 @@ body:
       value: "1. Open the platform, 2. Navigate to..."
     validations:
       required: true
- - type: textarea
+
+  - type: textarea
     id: expected-behavior
     attributes:
       label: What is the expected behavior?
       description: It should have...
-      placeholder: Tell us what should've happened instead of the but 
+      placeholder: Tell us what should've happened instead of the bug
       value: "It should have..."
     validations:
       required: false
-- type: textarea
-  id: screenshots
-  attributes:
-    label: Screenshots
-    description: Drag and drop any screenshots below to help us understand the issue. You can also paste images directly into this field.
-    placeholder: "Paste or drag images here"
-  validations:
-      required: false
 
-  
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Drag and drop any screenshots below to help us understand the issue. You can also paste images directly into this field.
+      placeholder: "Paste or drag images here"
+    validations:
+      required: false
